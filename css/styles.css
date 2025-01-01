@@ -1199,6 +1199,7 @@ a:focus {
   font-family: "Montserrat-Bold";
 }
 
+
 @media (max-width: 991px) {
   .upcoming-event .area-img {
     margin-bottom: 30px;
@@ -1206,6 +1207,10 @@ a:focus {
 
   .upcoming-event .area-img img {
     width: 100%;
+  }
+
+  .img-responsive animated zoomIn {
+    height: 100px;
   }
 }
 
