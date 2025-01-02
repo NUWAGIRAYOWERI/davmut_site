@@ -36,6 +36,16 @@
     margin: 0,
     singleItem: true,
     autoplayTimeout: 500,
+    items: 1, // Display one slide at a time
+    loop: true, // Enable infinite loop
+    autoplay: true, // Enable autoplay
+    autoplayTimeout: 2000, // Set autoplay interval (5 seconds)
+    // autoplayHoverPause: true, // Pause on hover
+    animateIn: "slideInRight", // Add CSS animation class for slides
+    animateOut: "slideOutLeft", // Add CSS animation class for slides
+    nav: true, // Enable navigation buttons
+    dots: true, // Enable dots
+    navText: ["<", ">"], // Custom navigation text-
   });
 
   //mobile menu
