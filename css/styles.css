@@ -1074,6 +1074,11 @@ a:focus {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .slider-hero .item img {
+    width: 100%;
+    height: 300px !important;
+  }
+
   .slider-hero .content-block h2 {
     font-size: 40px;
     padding-bottom: 20px;
@@ -1109,6 +1114,11 @@ a:focus {
 }
 
 @media (max-width: 767px) {
+  .slider-hero .item img {
+    width: 100%;
+    height: 300px !important;
+  }
+
   .slider-hero .content-block h2 {
     padding-bottom: 0;
     padding-top: 15px;
@@ -1138,6 +1148,7 @@ a:focus {
   .slider-hero .owl-dots {
     bottom: 10px !important;
   }
+
 }
 
 
@@ -2022,6 +2033,13 @@ a:focus {
     text-align: center;
     color: white;
 
+  }
+
+  .columns1 .slider-image img {
+    width: 100%;
+    height: 250px !important;
+    object-fit: cover;
+    /* Ensure the image scales properly */
   }
 
   .columns1 .educationitem img {
