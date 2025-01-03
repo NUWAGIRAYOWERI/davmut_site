@@ -43,7 +43,7 @@
     // autoplayHoverPause: true, // Pause on hover
     animateIn: "slideInRight", // Add CSS animation class for slides
     animateOut: "slideOutLeft", // Add CSS animation class for slides
-    nav: true, // Enable navigation buttons
+    nav: false, // Enable navigation buttons
     dots: true, // Enable dots
     navText: ["<", ">"], // Custom navigation text-
   });

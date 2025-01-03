@@ -100,7 +100,8 @@ input::placeholder {
 @media (max-width: 768px) {
 
 
-    .container {
+    .form1-container {
+        margin-top: -130px;
         padding-bottom: 100px;
     }
 
@@ -155,5 +156,9 @@ input::placeholder {
     .input-group input {
         font-size: 16px;
         /* Smaller input font size */
+    }
+
+    .form1-container {
+        padding-bottom: 100px;
     }
 }

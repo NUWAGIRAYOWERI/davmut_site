@@ -1918,9 +1918,7 @@ a:focus {
 *************************************/
 .about-us .about-us-title {
   background: url("../images/Education/WhatsApp\ Image\ 2024-12-16\ at\ 11.28.39_d3af71f1-modified.jpg");
-
   background-size: cover;
-
   padding: 330px 0 200px;
 
 }
@@ -1944,6 +1942,42 @@ a:focus {
   margin-bottom: 30px;
 }
 
+.aboutus {
+  position: relative;
+  width: 100%;
+}
+
+.columns1 .educationitem {
+  position: relative;
+  /* Ensure positioning context for the title */
+}
+
+.columns1 .educationitem img {
+  width: 100%;
+  height: 540px;
+  object-fit: cover;
+  /* Ensure the image scales properly */
+}
+
+.educationslider-title {
+  position: absolute;
+  top: 50%;
+  /* Adjust as needed */
+  left: 60%;
+  transform: translateX(-30%, -50%);
+  text-align: center;
+  color: white;
+  /* Contrast color for visibility */
+  font-size: 20px;
+
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+
+  /* Add text shadow for better readability */
+  z-index: 10;
+  /* Ensure the title appears above the image */
+  margin-left: 67px;
+}
+
 @media (min-width: 992px) {
   .about-us .about-us-title {
     padding: 330px 0 200px;
@@ -1954,11 +1988,40 @@ a:focus {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .educationslider-title {
+
+    top: 50%;
+    /* Adjust as needed */
+    left: 40%;
+    transform: translateX(-50%, -50%);
+    text-align: center;
+    color: white;
+
+  }
+
+  .columns1 .educationitem img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    /* Ensure the image scales properly */
+  }
 }
 
 @media (max-width: 991px) {
   .about-us .about-us-title {
     padding: 70px 0 70px;
+  }
+
+  .educationslider-title {
+
+    top: 50%;
+    /* Adjust as needed */
+    left: 10%;
+    transform: translateX(-50%, -50%);
+    text-align: center;
+    color: white;
+
   }
 }
 
@@ -2423,7 +2486,7 @@ a:focus {
 
 .alumni-story .alumni-story-wrapper {
   margin-bottom: 75px;
-  float: left;
+  /* float: left; */
 }
 
 .alumni-story .alumni-story-wrapper .alumni-story-img img {
