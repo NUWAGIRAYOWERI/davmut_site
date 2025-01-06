@@ -43,6 +43,19 @@ h1 {
     width: 100%;
 }
 
+
+.select-group {
+    width: 100px;
+
+
+}
+
+/* .select-options {
+    width: 200px;
+
+
+} */
+
 .input-group {
     display: flex;
     flex-direction: column;
