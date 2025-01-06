@@ -798,7 +798,8 @@ a:focus {
   -ms-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
-  color: #f7ca18;
+  color: rgb(167, 125, 62);
+  ;
 }
 
 .footer-wrapper .foooter-container .footer-middle .links-footer h6 {
@@ -1352,6 +1353,7 @@ a:focus {
   margin-bottom: 35px;
 }
 
+/* 
 .alumni-dashboard .area-content .icon {
   width: 45px;
   height: 30px;
@@ -1374,7 +1376,7 @@ a:focus {
 
 .alumni-dashboard .area-content .search-icon {
   background-image: url("../images/search-icon.png");
-}
+} */
 
 .alumni-dashboard .area-content .box-content h4 {
   margin: 22px 0 30px;
