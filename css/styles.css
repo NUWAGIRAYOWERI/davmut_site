@@ -864,6 +864,11 @@ a:focus {
 }
 
 @media (max-width: 991px) {
+  .footer-wrapper .foooter-container {
+    background-color: #1a265c;
+
+  }
+
   .footer-wrapper .foooter-container .footer-middle .contact-footer {
     margin-bottom: 30px;
   }
@@ -888,6 +893,15 @@ a:focus {
 
   .footer-wrapper .foooter-container .footer-middle .links-footer h6 {
     margin-top: 20px;
+  }
+
+  .footer-wrapper .foooter-container .footer-middle .links-footer ul li a {
+    color: #fff;
+
+  }
+
+  .footer-wrapper .foooter-container .footer-middle .contact-footer .contact-desc p {
+    color: #fff;
   }
 }
 
@@ -1253,6 +1267,7 @@ a:focus {
 @media (max-width: 767px) {
   .upcoming-event {
     padding: 20px 0 !important;
+
   }
 
   .upcoming-event .area-top h2 {
